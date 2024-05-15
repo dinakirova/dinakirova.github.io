@@ -1,0 +1,144 @@
+
+header {
+  background-color:#333;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 100px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+
+header, main, footer {
+  margin: 20px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.main-section {
+  margin-bottom: 30px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.image-gallery img {
+  max-width: 100%;
+  height: auto;
+}
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 34px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color:white;
+  padding: 10px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed
+  css
+  Copy code
+  width: 100%;
+  bottom: 0;
+}
+
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul li {
+  margin: 0 10px;
+}
+
+footer nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h3{
+  color: #333333;
+}
+p{
+  color: #333333;
+}
+
